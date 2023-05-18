@@ -8,7 +8,7 @@ function leerXML(url, callback) {
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
   }
-leerXML("http://home/alumno/Escritorio/final%20proyect/proyecto.xml", function(xml) {
+leerXML("../proyecto.xml", function(xml) {
     // Aquí puedes acceder y manipular el objeto `xml` que contiene la estructura del XML
     // Por ejemplo, puedes obtener elementos por su etiqueta usando los métodos proporcionados por la API XML
     var elementos = xml.getElementsByTagName("elemento");
